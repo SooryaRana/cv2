@@ -1,0 +1,86 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #31326F;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+h4 {
+  color: #66BFBF;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.info {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein
+ {
+  from {
+    margin-left: 100%;
+    width: 30%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.logo
+{
+  -webkit-transition: -webkit-transform .95s;
+}
+.logo:hover
+{
+  -webkit-animation: spin .95s linear infinite;
+  -moz-animation: spin .95s linear infinite;
+  animation: spin .95s linear infinite;
+}
+  @-webkit-keyframes spin{
+    100%{-webkit-transform:rotate(360deg);}
+  }
+  @-moz-keyframes spin{
+    100%{-webkit-transform:rotate(360deg);}
+  }
+  @keyframes spin{
+    100%{-webkit-transform:rotate(360deg);}
+  }
+  .link {
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+
+.link:hover {
+  background-color: #98ACF8;
+}
+.link1{
+background-color: powderblue;
+transition: background-color .5s;
+}
+
+.link1:hover {
+background-color:#F9CEEE;
+}
